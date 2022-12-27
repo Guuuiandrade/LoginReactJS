@@ -1,0 +1,43 @@
+:root {
+    --white: #fff;
+    --black: #000;
+
+    --gray-100: #B2BEBF;
+    --gray-300: #889C9B;
+    --gray-500: #222222;
+
+    --red-800: #D9042B;
+
+    --people-800: #270140;
+    --pink-100: #ff00fe;
+
+    --yellow-700: #F2B705;
+    --orange-700: #F28705;
+
+    --gradient-people: linear-gradient(180deg, rgba(184,69,232,1) 35%, rgba(255,0,254,1) 100%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background: var(--gray-500);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cadastro {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
